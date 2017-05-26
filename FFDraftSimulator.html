@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+<head>
+<!--
+   Author: Greg King
+   Project: FF Mock Draft Simulator
+   Date Created: 5/18/2017
+-->
+
+<title>FF Mock Draft Simulator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="FFDraftSimulator.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="FFDraftSimulator.js"></script>
+</head>
+
+<body>
+
+<form>
+    <div id="settingsInterface">
+        <div>
+            <h2>Draft Settings</h2>
+        </div>
+
+        <div>
+            <label>Number of Teams:</label>
+            <select size="1" id="numTeams">
+                <option value="10">10</option>
+                <option value="12" selected>12</option>
+                <option value="14">14</option>
+            </select>
+    
+            <label>Draft Order:</label>
+            <select size="1" id="draftOrder">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+    
+            <label>Draft Format:</label>
+            <select size="1" id="draftFormat">
+                <option value="1">Snake</option>
+                <option value="2" selected>Linear</option>
+            </select>
+        <div/>
+    
+        <div>
+            <label>Roster Positions:</label><br />
+        
+            <label>QB:</label>
+            <select size="1" id="qb">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+            </select>
+        
+            <label>WR:</label>
+            <select size="1" id="wr">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+            </select>
+        
+            <label>RB:</label>
+            <select size="1" id="rb">
+                <option value="1">1</option>
+                <option value="2" selected>2</option>
+            </select>
+        
+            <label>TE:</label>
+            <select size="1" id="te">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+            </select>
+        
+            <label>Flex:</label>
+            <select size="1" id="flex">
+                <option value="0">0</option>
+                <option value="1" selected>1</option>
+            </select>
+        
+            <label>DST:</label>
+            <select size="1" id="dst">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+            </select>
+        
+            <label>K:</label>
+            <select size="1" id="k">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+            </select>
+        
+            <label>Bench:</label>
+            <select size="1" id="bench">
+                <option value="6">6</option>
+                <option value="7" selected>7</option>
+            </select>
+        <div/>
+    
+        <div>
+            <input type="button" id="continueButton" value="Continue" onclick="continueButtonClicked()">
+        </div>
+    
+    </div>
+
+    <div id="draftInterface">
+        <input type="button" id="startDraftButton" value="Start Draft" onclick="startDraftButtonClicked()">
+        <label id="playerRankingsLabel">2016 Player Rankings</label>
+        <label id="draftHistoryLabel">Draft History</label>
+        <label id="userRosterLabel">User Roster etc.</label>
+        <select id="playerRankingsSelectList" size="30"></select>
+        <textarea readonly id="draftHistoryTextArea"></textarea>
+        <textarea readonly id="userRosterTextArea"></textarea>
+        <label id="viewLabel">View:</label>
+        <input type="button" id="allFilterButton" value="All" onclick="allFilterButtonClicked()">
+        <input type="button" id="qbFilterButton" value="QB" onclick="qbFilterButtonClicked()">
+        <input type="button" id="wrFilterButton" value="WR" onclick="wrFilterButtonClicked()">
+        <input type="button" id="rbFilterButton" value="RB" onclick="rbFilterButtonClicked()">
+        <input type="button" id="teFilterButton" value="TE" onclick="teFilterButtonClicked()">
+        <input type="button" id="kFilterButton" value="K" onclick="kFilterButtonClicked()">
+        <input type="button" id="dstFilterButton" value="DST" onclick="dstFilterButtonClicked()">
+        <input type="button" id="draftSelectedButton" value="Draft Selected Player" onclick="draftSelectedButtonClicked()">
+        <input type="button" id="draftSettingsButton" value="Draft Settings" onclick="draftSettingsButtonClicked()">
+        <input type="button" id="teamRostersButton" value="Team Rosters" onclick="teamRostersButtonClicked()">
+        <input type="button" id="draftResultsButton" value="Draft Results" onclick="draftResultsButtonClicked()">
+        <input type="button" id="userRosterButton" value="Your Roster" onclick="userRosterButtonClicked()">
+    </div>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+form {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+
+    /* To see the limits of the form */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+
+#playerRankingsSelectList {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    width: 300px;
+    height: 430px;
+    border: 3px solid #aaaaaa;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+
+#draftHistoryTextArea {
+    position: absolute;
+    top: 90px;
+    left: 320px;
+    width: 300px;
+    height: 419px;
+    border: 3px solid #aaaaaa;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+#userRosterTextArea {
+    position: absolute;
+    top: 90px;
+    left: 640px;
+    width: 300px;
+    height: 419px;
+    border: 3px solid #aaaaaa;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+
+
+#draftSelectedButton {
+    position: absolute;
+    top: 560px;
+    left: 10px;
+    width: 300px;
+    height: 25px;
+}
+
+#startDraftButton {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+}
+
+#draftSettingsButton {
+    position: absolute;
+    top: 530px;
+    left: 690px;
+    width: 100px;
+}
+
+#teamRostersButton {
+    position: absolute;
+    top: 530px;
+    left: 800px;
+    width: 100px;
+}
+
+#userRosterButton {
+    position: absolute;
+    top: 560px;
+    left: 800px;
+    width: 100px;
+}
+
+#draftResultsButton {
+    position: absolute;
+    top: 560px;
+    left: 690px;
+    width: 100px;
+}
+
+#playerRankingsLabel {
+    position: absolute;
+    top: 62px;
+    left: 10px;
+    width: 300px;
+    height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#draftHistoryLabel {
+    position: absolute;
+    top: 62px;
+    left: 320px;
+    width: 300px;
+    height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#userRosterLabel {
+    position: absolute;
+    top: 62px;
+    left: 640px;
+    width: 300px;
+    height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#viewLabel {
+    position: absolute;
+    top: 528px;
+    left: 15px;
+    width: 40px;
+    height: 20px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+#allFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 60px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#qbFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 95px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#wrFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 130px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#rbFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 165px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#teFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 200px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#kFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 235px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+#dstFilterButton {
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    width: 25px;
+    box-sizing: content-box;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgb(128,128,128);
+    border-radius: 3px;
+    background: transparent;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+
+
